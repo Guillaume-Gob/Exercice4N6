@@ -54,13 +54,13 @@ android:textSize="24pt"/>
 
 
 
-        <androidx.recyclerview.widget.RecyclerView
+        <ListView
             android:id="@+id/recyclerView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
 
             android:layout_weight="1"
-            android:layout_marginBottom="50dp"/>
+           />
         <TableLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -72,16 +72,19 @@ android:textSize="24pt"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"/>
+                    android:layout_weight="1"
+                    android:background="#88C13A18"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:background="#885E4943"
                     />
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"/>
+                    android:layout_weight="1"
+                    android:background="#88CD1313"/>
 
 
 
